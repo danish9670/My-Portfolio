@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio | Full Stack Developer & Designer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Bar -->
+<header class="navbar">
+  <div class="container nav-container">
+    <div class="logo">
+      <a href="#home">My Portfolio</a>
+    </div>
+    <div class="menu-toggle" id="mobile-menu">
+      <span class="bar"></span>
+      <span class="bar"></span>
+      <span class="bar"></span>
+    </div>
+    <nav class="nav-links" id="navbar-links">
+      <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#journey">Journey</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#resume">Resume</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="container hero-content">
+            <div class="hero-text">
+                <h1>Hi, I'm <span class="highlight">Danish Raza</span></h1>
+                <h2>Full Stack Developer <span class="amp">&</span> Designer</h2>
+                <p>Fresh graduate passionate about Full Stack development and design. Eager to learn and grow in a dynamic development environment. Strong foundation in modern Full Stack technologies with a keen interest in creating user-friendly applications.</p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn primary">Hire Me</a>
+                    <a href="#projects" class="btn secondary">View My Work</a>
+                </div>
+                <div class="social-links">
+                    <!-- Removed Twitter, GitHub, LinkedIn -->
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="profile photo.jpg" alt="Profile Photo">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container about-content">
+            <h2>About <span class="highlight">Me</span></h2>
+            <div class="about-details">
+                <div class="about-img">
+                    <img src="about photo.jpg" alt="About Photo">
+                </div>
+                <div class="about-text">
+                    <h3>Full Stack Developer & Designer</h3>
+                    <div class="about-content-wrapper">
+                        <p class="about-main">I'm Danish Raza, a fourth-year graduate student with a passion for Full Stack development and design. I'm excited to start my journey in the tech industry and contribute to meaningful projects.
+                        <br><br>I have a solid foundation in HTML, CSS, JavaScript, React.js, Express.js, MongoDB, Node.js and modern Full Stack technologies. I enjoy learning new technologies and am particularly interested in React, Node.js, and creating intuitive user interfaces. I'm always eager to take on new challenges and grow my skills.</p>
+                        <div class="about-extra" style="display: none;">
+                            <p>During my studies, I worked on various projects that helped me understand both frontend and backend development. I'm passionate about writing clean, maintainable code and creating user-friendly applications.</p>
+                            <p>I'm looking for opportunities to work with experienced developers, learn industry best practices, and contribute to real-world projects. I'm a quick learner and excited to bring fresh perspectives to development teams.</p>
+                            <p>I believe in continuous learning and staying updated with the latest technologies and trends in Full Stack development.</p>
+                        </div>
+                    </div>
+                    <button class="btn primary read-more-btn" onclick="toggleAboutContent()">Read More</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Journey Section -->
+    <section id="journey" class="journey-section">
+        <div class="container journey-content">
+            <h2>My <span class="highlight">Journey</span></h2>
+            <div class="journey-columns">
+                <div class="education">
+                    <h3>Education</h3>
+                    <ul>
+                        <li>
+                            <span class="year">2019</span>
+                            <div class="journey-box">
+                                <strong>10th - School</strong>
+                                <p>•	Passed High School from St.Joseph Montessori school, Lucknow, U.P. in 2019  with 72.83%</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="year">2021</span>
+                            <div class="journey-box">
+                                <strong>12th - School</strong>
+                                <p>•	Passed Intermediate from St.Joseph Montessori school, Lucknow, U.P. in 2021 with 84.66%</p>
+                            </div>
+                        </li>
+                        <li>
+                            <span class="year">2022-2026</span>
+                            <div class="journey-box">
+                                <strong>Bachelor Degree - University</strong>
+                                <p>•	Bachelor of Technology in Computer science and engineering from Babu Banarasi Das Northern India Institute of Technology, Lucknow, U.P. in Batch 2022-2026 as current CGPA 6.92 till now</p>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container skills-content">
+            <h2>My <span class="highlight">Skills</span></h2>
+            <div class="skills-columns">
+                <div class="coding-skills">
+                    <h3>Coding Skills</h3>
+                    <ul>
+                        <li>HTML <div class="bar"><div class="progress" style="width: 95%"></div></div></li>
+                        <li>CSS <div class="bar"><div class="progress" style="width: 90%"></div></div></li>
+                        <li>JavaScript <div class="bar"><div class="progress" style="width: 85%"></div></div></li>
+                        <li>Python <div class="bar"><div class="progress" style="width: 75%"></div></div></li>
+                        <li>Node.js <div class="bar"><div class="progress" style="width: 80%"></div></div></li>
+                        <li>React <div class="bar"><div class="progress" style="width: 85%"></div></div></li>
+                        <li>Express.js <div class="bar"><div class="progress" style="width: 80%"></div></div></li>
+                        <li>MongoDB <div class="bar"><div class="progress" style="width: 75%"></div></div></li>
+                    </ul>
+                </div>
+                <div class="professional-skills">
+                    <h3>Professional Skills</h3>
+                    <ul>
+                        <li>Web Design <div class="bar"><div class="progress" style="width: 95%"></div></div></li>
+                        <li>Adaptability<div class="bar"><div class="progress" style="width: 90%"></div></div></li>
+                        <li>Project Management <div class="bar"><div class="progress" style="width: 60%"></div></div></li>
+                        <li>Communication <div class="bar"><div class="progress" style="width: 70%"></div></div></li>
+                        <li>Time Management <div class="bar"><div class="progress" style="width: 80%"></div></div></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container projects-content">
+            <h2>My <span class="highlight">Projects</span></h2>
+            <div class="projects-list">
+                <div class="project-card">
+                    <img src="livetogether.png" alt="LiveTogether Logo" class="project-img">
+                    <h3>Project 1</h3>
+                    <p> A collaborative livestream shopping platform where friends and families can shop together in real-time for special occasions like weddings, birthdays, and more. Features themed rooms, live chat, and curated product showcases for a seamless group shopping experience. </p>
+                    <div class="project-tags">
+                        <span>React</span><span>Node.js</span><span>Express</span><span>Socket.io</span><span>Stripe</span><span>UI/UX</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/danish9670/livetogether_shopping_website.git" target="_blank" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="HotelManagement.jpg" alt="Hotel Management Logo" class="project-img">
+                    <h3>Project 2</h3>
+                    <p> A comprehensive hotel management system that streamlines the booking process, manages room availability, and enhances the guest experience. Features include a user-friendly interface, real-time booking updates, and integrated payment processing.</p>
+                    <div class="project-tags">
+                        <span>React.js</span><span>Node.js</span><span>Express.js</span><span>MongoDB</span><span>API Integration</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/danish9670/hotel-booking-MERN.git" target="_blank" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+                <div class="project-card">
+                    <img src="personal-portfolio.png" alt="Personal Portfolio Logo" class="project-img">
+                    <h3>Project 3</h3>
+                    <p> A personal portfolio website showcasing my skills, projects, and journey as a Full Stack developer. Features include a responsive design, interactive elements, and sections for my resume and contact information.</p>
+                    <div class="project-tags">
+                        <span>HTML</span><span>CSS</span><span>JavaScript</span><span>Responsive Design</span><span>UI/UX</span>
+                    </div>
+                    <div class="project-buttons">
+                        <a href="https://github.com/danish9670/personal-portfolio.git" target="_blank" class="btn secondary">View on GitHub</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+            <!-- Visitor Feedback Form -->
+            <div class="testimonial-feedback">
+                <h3>Share your thoughts!</h3>
+                <form id="testimonialForm" action="https://formspree.io/f/xyzjvavz" method="POST">
+                    <input type="text" name="visitor_name" placeholder="Your Name" required style="margin-bottom:8px;">
+                    <textarea name="visitor_feedback" placeholder="What do you feel about me and my page?" required style="margin-bottom:8px;"></textarea>
+                    <button type="submit" class="btn secondary">Submit Feedback</button>
+                </form>
+                <div id="testimonialThankYou" style="display:none; color: green; font-size: 1em; margin-top: 1em;">Thank you for your feedback!</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- My Resume Section -->
+    <section id="resume" class="resume-section">
+        <div class="container resume-content">
+            <h2>My <span class="highlight">Resume</span></h2>
+            <p class="resume-summary">Download my resume to learn more about my educational background, technical skills, and projects. I'm passionate about web development and eager to start my career in the tech industry.</p>
+            <a href="Danish_Resume.PDF" class="btn primary" download>Download Resume (PDF)</a>
+        </div>
+    </section>
+
+    
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container contact-content">
+            <h2>Contact <span class="highlight">Me</span></h2>
+            <form class="contact-form" action="https://formspree.io/f/xyzjvavz" method="POST" id="contactForm">
+                <div class="form-row">
+                    <input type="text" name="name" placeholder="Full Name" required>
+                    <input type="email" name="email" placeholder="Email Address" required>
+                </div>
+                <div class="form-row">
+                    <input type="text" name="mobile" placeholder="Mobile Number">
+                    <input type="text" name="subject" placeholder="Email Subject">
+                </div>
+                <textarea name="message" placeholder="Your Message" required></textarea>
+                <button type="submit" class="btn primary">Submit</button>
+            </form>
+            <div id="thankYouMessage" style="display:none; color: green; font-size: 1.2em; margin-top: 1em;">Thank you for contacting me! I'll get back to you soon.</div>
+            <div class="contact-info">
+                <div class="contact-row">
+                    <span class="contact-icon">
+                        <!-- Phone SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M22 16.92v3a2 2 0 0 1-2.18 2A19.86 19.86 0 0 1 3.09 5.18 2 2 0 0 1 5 3h3a2 2 0 0 1 2 1.72c.13 1.05.37 2.05.72 3a2 2 0 0 1-.45 2.11l-1.27 1.27a16 16 0 0 0 6.29 6.29l1.27-1.27a2 2 0 0 1 2.11-.45c.95.35 1.95.59 3 .72A2 2 0 0 1 22 16.92z"/></svg>
+                    </span>
+                    <span class="contact-text">+919670393243</span>
+                </div>
+                <div class="contact-row">
+                    <span class="contact-icon">
+                        <!-- Email SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+                    </span>
+                    <span class="contact-text">danishraza.stjic@gmail.com</span>
+                </div>
+                <div class="contact-socials">
+                    <a href="https://wa.me/919670393243" target="_blank" title="WhatsApp"><span class="contact-icon">
+                        <!-- WhatsApp SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16.72 13.06c-.29-.14-1.7-.84-1.96-.94-.26-.1-.45-.14-.64.14-.19.28-.74.94-.91 1.13-.17.19-.34.21-.63.07-.29-.14-1.22-.45-2.33-1.43-.86-.77-1.44-1.72-1.61-2.01-.17-.29-.02-.45.13-.59.13-.13.29-.34.43-.51.14-.17.19-.29.29-.48.1-.19.05-.36-.02-.5-.07-.14-.64-1.54-.88-2.11-.23-.56-.47-.48-.64-.49-.17-.01-.36-.01-.56-.01-.19 0-.5.07-.76.36-.26.29-1 1.01-1 2.46 0 1.45 1.03 2.85 1.18 3.05.14.19 2.03 3.1 4.92 4.23.69.29 1.23.46 1.65.59.69.22 1.32.19 1.81.12.55-.08 1.7-.7 1.94-1.37.24-.67.24-1.25.17-1.37-.07-.12-.26-.19-.55-.33z"/><circle cx="12" cy="12" r="10"/></svg>
+                    </span></a>
+                    <a href="https://instagram.com/danish_raza9670" target="_blank" title="Instagram"><span class="contact-icon">
+                        <!-- Instagram SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"/><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/><line x1="17.5" y1="6.5" x2="17.5" y2="6.5"/></svg>
+                    </span></a>
+                    <a href="https://www.linkedin.com/in/danish-raza-17383332b?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank" title="LinkedIn"><span class="contact-icon">
+                        <!-- LinkedIn SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="2" ry="2"/><line x1="16" y1="8" x2="16" y2="16"/><line x1="8" y1="8" x2="8" y2="16"/><line x1="8" y1="12" x2="16" y2="12"/></svg>
+                    </span></a>
+                    <a href="https://github.com/danish9670" target="_blank" title="GitHub"><span class="contact-icon">
+                        <!-- GitHub SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M12 2C6.48 2 2 6.58 2 12.26c0 4.5 2.87 8.32 6.84 9.67.5.09.68-.22.68-.48 0-.24-.01-.87-.01-1.7-2.78.62-3.37-1.36-3.37-1.36-.45-1.18-1.1-1.5-1.1-1.5-.9-.63.07-.62.07-.62 1 .07 1.53 1.05 1.53 1.05.89 1.56 2.34 1.11 2.91.85.09-.66.35-1.11.63-1.37-2.22-.26-4.56-1.14-4.56-5.07 0-1.12.39-2.03 1.03-2.75-.1-.26-.45-1.3.1-2.7 0 0 .84-.28 2.75 1.05A9.38 9.38 0 0 1 12 6.84c.85.004 1.71.12 2.51.35 1.91-1.33 2.75-1.05 2.75-1.05.55 1.4.2 2.44.1 2.7.64.72 1.03 1.63 1.03 2.75 0 3.94-2.34 4.81-4.57 5.07.36.32.68.94.68 1.9 0 1.37-.01 2.47-.01 2.81 0 .27.18.58.69.48A10.01 10.01 0 0 0 22 12.26C22 6.58 17.52 2 12 2z"/></svg>
+                    </span></a>
+                    <a href="https://x.com/Danish_raza9670?t=uDcNK6DJJh3dYVOJvtntVw&s=09" target="_blank" title="X (Twitter)"><span class="contact-icon">
+                        <!-- X (Twitter) SVG -->
+                        <svg xmlns="http://www.w3.org/2000/svg" width="1.5em" height="1.5em" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M18 6L6 18M6 6l12 12"/></svg>
+                    </span></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container footer-content">
+            <p>Copyright &copy; 2025 Danish raza. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script>
+    function toggleAboutContent() {
+      const extra = document.querySelector('.about-extra');
+      const btn = document.querySelector('.read-more-btn');
+      if (extra.style.display === 'none') {
+        extra.style.display = 'block';
+        btn.textContent = 'Show Less';
+      } else {
+        extra.style.display = 'none';
+        btn.textContent = 'Read More';
+      }
+    }
+
+    // Handle contact form thank you and redirect
+    const contactForm = document.getElementById('contactForm');
+    if (contactForm) {
+      contactForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(contactForm);
+        fetch(contactForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(function(response) {
+          if (response.ok) {
+            contactForm.style.display = 'none';
+            document.getElementById('thankYouMessage').style.display = 'block';
+            setTimeout(function() {
+              window.location.hash = '#home';
+              contactForm.reset();
+              contactForm.style.display = '';
+              document.getElementById('thankYouMessage').style.display = 'none';
+            }, 3000);
+          } else {
+            response.json().then(function(data) {
+              alert(data.error || 'Oops! There was a problem submitting your form.');
+            });
+          }
+        }).catch(function(error) {
+          alert('Oops! There was a problem submitting your form.');
+        });
+      });
+    }
+
+    // Handle testimonial feedback form
+    const testimonialForm = document.getElementById('testimonialForm');
+    if (testimonialForm) {
+      testimonialForm.addEventListener('submit', function(e) {
+        e.preventDefault();
+        const formData = new FormData(testimonialForm);
+        fetch(testimonialForm.action, {
+          method: 'POST',
+          body: formData,
+          headers: {
+            'Accept': 'application/json'
+          }
+        }).then(function(response) {
+          if (response.ok) {
+            testimonialForm.style.display = 'none';
+            document.getElementById('testimonialThankYou').style.display = 'block';
+            setTimeout(function() {
+              testimonialForm.reset();
+              testimonialForm.style.display = '';
+              document.getElementById('testimonialThankYou').style.display = 'none';
+            }, 3000);
+          } else {
+            response.json().then(function(data) {
+              alert(data.error || 'Oops! There was a problem submitting your feedback.');
+            });
+          }
+        }).catch(function(error) {
+          alert('Oops! There was a problem submitting your feedback.');
+        });
+      });
+    }
+    </script>
+    <script src="script.js"></script>
+</body>
+</html>
