@@ -35,7 +35,8 @@ export default function Home() {
   ];
 
   const skills: Record<string, string[]> = {
-    Frontend: ["React.js", "Next.js", "JavaScript (ES6+)", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
+    Languages: ["JavaScript (ES6+)", "Python", "TypeScript (basic)"],
+    Frontend: ["React.js", "Next.js", "HTML5", "CSS3", "Tailwind CSS", "Bootstrap"],
     Backend: ["Node.js", "Express.js", "MongoDB", "REST API Design", "CRUD Operations"],
     "Tools & Platforms": ["Git", "GitHub", "VS Code", "Vercel", "Prisma ORM", "MySQL"],
     Architecture: ["MVC Architecture", "RESTful APIs", "Responsive Web Design", "Agile Development"],
@@ -64,22 +65,22 @@ export default function Home() {
       description: "Full-stack CRUD app with priority-based sorting (Urgent/Normal), server-side validation, RESTful API routes, and TiDB Cloud hosted database. Deployed on Vercel.",
       tech: ["Next.js", "Prisma ORM", "MySQL", "Tailwind CSS", "Vercel"],
       github: "https://github.com/danish9670/notice-board",
-      live: "https://notice-board-eight-chi.vercel.app/" as string | null,
+      live: "https://notice-board-eight-chi.vercel.app" as string | null,
     },
     {
-      icon: "🛍️",
-      title: "Livestream Shopping",
-      description: "Real-time collaborative e-commerce platform enabling group livestream shopping experiences with event-driven backend and real-time data synchronization.",
-      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Real-Time"],
-      github: "https://github.com/danish9670/livetogether_shopping_website",
-      live: null as string | null,
+      icon: "💬",
+      title: "Team Collab App",
+      description: "Real-time team collaboration platform with chat, kanban board, file sharing, and screen sharing — built with Socket.io and WebRTC on a MERN backend.",
+      tech: ["React.js", "Node.js", "Express.js", "MongoDB", "Socket.io", "WebRTC"],
+      github: "https://github.com/danish9670/team-collab-app",
+      live: "https://team-collab-app-lake.vercel.app/" as string | null,
     },
     {
       icon: "🤖",
       title: "Personal AI Assistant",
       description: "Final Year B.Tech Project — AI-powered web assistant with natural language interaction, AI API integration, and full-stack JavaScript architecture.",
       tech: ["React.js", "Node.js", "Express.js", "AI API Integration"],
-      github: "https://github.com/danish9670/eldercare",
+      github: "https://github.com/danish9670/personal-ai-final-year-project",
       live: null as string | null,
       badge: "Final Year Project",
     },
@@ -89,7 +90,7 @@ export default function Home() {
       description: "Home healthcare platform connecting families with verified nurses and caregivers across India. Full-stack MERN implementation with caregiver verification.",
       tech: ["React.js", "Node.js", "MongoDB"],
       github: "https://github.com/danish9670/eldercare",
-      live: null as string | null,
+      live: "https://eldercare-teal.vercel.app/" as string | null,
     },
   ];
 
@@ -194,7 +195,7 @@ export default function Home() {
 
     .proj-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; }
     .proj-card { background: var(--surface); border: 1px solid var(--border); border-radius: 16px; padding: 1.5rem; display: flex; flex-direction: column; transition: border-color 0.25s, transform 0.25s; position: relative; }
-    .proj-card:hover { border-color: rgba(0,212,170,0.25); transform: translateY(-3px); }
+    .proj-card:hover { border-color: rgba(0,212,170,0.25); transform: translateY(-3px); box-shadow: 0 12px 32px -12px rgba(0,212,170,0.18); }
     .proj-badge { position: absolute; top: 1rem; right: 1rem; background: rgba(124,108,255,0.15); border: 1px solid rgba(124,108,255,0.3); color: #a89fff; font-size: 0.7rem; font-weight: 700; padding: 0.2rem 0.55rem; border-radius: 5px; }
     .proj-icon { font-size: 1.75rem; margin-bottom: 0.75rem; }
     .proj-title { font-family: var(--font-head); font-weight: 700; font-size: 1rem; color: var(--text); margin-bottom: 0.5rem; }
@@ -208,7 +209,7 @@ export default function Home() {
 
     .certs-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; }
     .cert-card { background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 1.25rem; display: flex; gap: 0.85rem; align-items: flex-start; transition: border-color 0.2s; }
-    .cert-card:hover { border-color: rgba(0,212,170,0.2); }
+    .cert-card:hover { border-color: rgba(0,212,170,0.2); box-shadow: 0 8px 24px -14px rgba(0,212,170,0.18); }
     .cert-check { width: 22px; height: 22px; background: rgba(0,212,170,0.15); border-radius: 6px; display: flex; align-items: center; justify-content: center; flex-shrink: 0; margin-top: 1px; font-size: 0.7rem; color: var(--accent); font-weight: 700; }
     .cert-title { font-family: var(--font-head); font-weight: 700; font-size: 0.88rem; color: var(--text); margin-bottom: 0.25rem; line-height: 1.3; }
     .cert-org { font-size: 0.78rem; color: var(--muted); line-height: 1.4; }
@@ -296,7 +297,7 @@ export default function Home() {
             <div className="hero-stats">
               <div><div className="stat-num">8<span>+</span></div><div className="stat-label">Projects Built</div></div>
               <div><div className="stat-num">9<span>+</span></div><div className="stat-label">Certifications</div></div>
-              <div><div className="stat-num">7.89</div><div className="stat-label">SGPA / 10.0</div></div>
+              <div><div className="stat-num">7.04</div><div className="stat-label">CGPA / 10.0</div></div>
             </div>
           </div>
 
@@ -339,9 +340,19 @@ export default function Home() {
               <div className="edu-deg">B.Tech – Computer Science &amp; Engineering</div>
               <div className="edu-sch">BBD Northern India Institute of Technology, Lucknow · 2022–2026</div>
               <div className="edu-meta">
-                <span className="edu-chip">SGPA 7.89 / 10.0</span>
+                <span className="edu-chip">CGPA 7.04 / 10.0</span>
                 <span className="edu-chip">7th Semester</span>
               </div>
+            </div>
+            <div className="acard">
+              <div className="acard-title">Experience</div>
+              <div className="edu-deg">Full Stack Development Intern</div>
+              <div className="edu-sch">Unified Mentor · 3-month internship (May–Aug 2026)</div>
+              <div className="edu-meta" style={{ marginBottom: "1rem" }}>
+                <span className="edu-chip">MERN Stack</span>
+              </div>
+              <div className="edu-deg">MERN Stack Training</div>
+              <div className="edu-sch">ShapeMySkills by Ducat, Noida · 90-hour program (Jul–Aug 2025)</div>
             </div>
             <div className="acard">
               <div className="acard-title">Core Competencies</div>
